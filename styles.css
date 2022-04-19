@@ -1,0 +1,125 @@
+body {
+    font-family: "Calibri Light";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #E55381;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #685762;
+    transition: 0.3s;
+}
+
+#title-header {
+    background-image:
+            linear-gradient(to right, rgba(25, 11, 40, 100%), rgba(25, 11, 40, 0%)),
+            url('images/header-painting.png');
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#title-header a {
+    color: white;
+    font-size: 50px;
+    font-family: "Whisper";
+    text-transform: lowercase;
+}
+
+#title-nav {
+    background-color: #190B28;
+}
+
+#title-nav a {
+    transition: 0.3s;
+    color: white;
+}
+
+#title-nav a:hover {
+    transition: 0.3s;
+    color: lightgrey;
+}
+
+#title-nav .dropdown-item {
+    color: black;
+}
+
+#home-body-cards {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    max-width: 1300px;
+}
+
+.btn:hover {
+    background-color: #E55381;
+    color: white;
+    transition: 0.6s;
+}
+
+.btn {
+    transition: 0.6s;
+}
+
+.dropdown-menu {
+    background-color: lightgrey;
+}
+
+.dropdown-item:hover {
+    background-color: #190B28;
+    transition: 0.3s;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.shopping-button {
+    background: none;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.shopping-button:hover {
+    color: lightgrey;
+    transition: 0.3s;
+}
+
+.about-header {
+    background-color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.container-wider {
+    max-width: 2000px;
+}
+
+
+#current-nav-link {
+    color: #E55381 !important;
+    transition: 0.3s;
+}
+
+.checkout-div {
+    margin-top: 160px;
+    margin-right: 50px;
+    position: sticky;
+    top: 30px;
+    z-index: 100;
+    float: right;
+}
+
+.footer {
+    background-color: #190B28;
+    color: white;
+    text-align: center;
+}
