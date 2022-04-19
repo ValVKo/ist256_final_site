@@ -4,7 +4,7 @@
 ### Mission Statement:  To provide artists around the world with art materials at a fair price. 
 
 # Link to website
-[Link to website](https://karma-runner.github.io)
+[Link to website](https://valvko.github.io/ist256_final_site/)
 
 ## IST 256 Final Project
 **Description:**
