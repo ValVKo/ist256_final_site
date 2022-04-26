@@ -41,13 +41,13 @@ function keepLoggedInOpen() {
     document.getElementById('register-container').style.display = 'none';
     document.getElementById('finished-login-container').style.display = 'block';
     document.getElementById('finished-login-text').innerHTML = "Welcome " + localStorage.getItem('username') + "!";
-    sessionStorage.setItem('finished-login', true);
+    localStorage.setItem('finished-login', true);
 }
 
 function LogOut() {
     document.getElementById('finished-login-container').style.display = "none";
-    sessionStorage.removeItem('finished-login');
-    window.location.reload(true);
+    localStorage.removeItem('finished-login');
+    window.location.reload();
 }
 
 function enableRegister(checkbox) {
@@ -60,7 +60,7 @@ function enableRegister(checkbox) {
 }
 
 window.onload = function() {
-    var data = sessionStorage.getItem('finished-login');
+    var data = localStorage.getItem('finished-login');
     if (data === 'true') {
         keepLoggedInOpen();
     }

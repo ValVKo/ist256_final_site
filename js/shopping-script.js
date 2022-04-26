@@ -36,10 +36,10 @@ function renderProducts() {
 
                         <div class="form-floating">
                             <select class="form-select" id="${product.id}-quality-select" aria-label="${product.id}-quality")">
-                                <option value="4" selected>student-grade</option>
-                                <option value="5">artist-grade</option>
+                                <option value="4" selected>${product.category2_val1}</option>
+                                <option value="5">${product.category2_val2}</option>
                             </select>
-                            <label for="${product.id}-quality-select">quality</label>
+                            <label for="${product.id}-quality-select">${product.category2}</label>
                         </div>
 
                         <br>

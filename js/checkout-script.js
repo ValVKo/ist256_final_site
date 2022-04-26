@@ -1,3 +1,11 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+    var data2 = localStorage.getItem('finished-login');
+    if (data2 !== 'true') {
+        window.location.replace("login.html");
+    }
+});
+
 const totalQtEl = document.querySelector(".check-qt");
 const checkItemsEl = document.querySelector(".checkout-container");
 const totalItemsEl = document.querySelector(".check-price");

@@ -145,6 +145,7 @@ a:hover, item-x:hover {
 }
 
 .item-image {
-    height:100px;
+    height: 100px;
     background-size: cover;
+    background-position:center;
 }
